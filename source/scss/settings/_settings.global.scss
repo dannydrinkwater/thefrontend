@@ -1,0 +1,32 @@
+/* ==========================================================================
+   #GLOBAL
+   ========================================================================== */
+
+
+
+// Base typographical styles and baseline grid. You need to define these values in pixels.
+
+$global-font-size:    16px !default;
+$global-line-height:  24px !default;
+
+
+
+// Spacing values are determined based on your project’s global line height (i.e your baseline grid).
+// It is not recommended that you modify these following variables (it can break your vertical rhythm).
+
+$global-spacing-unit: round($global-line-height) !default;
+
+$global-spacing-unit-factor-tiny:   0.25 !default;
+$global-spacing-unit-factor-small:  0.5  !default;
+$global-spacing-unit-factor-large:  2    !default;
+$global-spacing-unit-factor-huge:   4    !default;
+
+$global-spacing-unit-tiny:  round($global-spacing-unit * $global-spacing-unit-factor-tiny);
+$global-spacing-unit-small: round($global-spacing-unit * $global-spacing-unit-factor-small);
+$global-spacing-unit-large: round($global-spacing-unit * $global-spacing-unit-factor-large);
+$global-spacing-unit-huge:  round($global-spacing-unit * $global-spacing-unit-factor-huge);
+
+
+
+$global-radius: 3px !default;
+$global-transition: all 300ms ease-in-out !default;
