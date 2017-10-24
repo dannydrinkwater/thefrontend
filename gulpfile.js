@@ -4,7 +4,7 @@ var minifyCSS = require('gulp-cssnano');
 
 gulp.task('html', function(){
   return gulp.src('source/example.html')
-    .pipe(gulp.dest('public/example.html'))
+    .pipe(gulp.dest('public/'))
 });
 
 gulp.task('css', function(){
