@@ -24,13 +24,6 @@ Normalise line endings within the Git repository.
 
 Project specific files and folders to be ignored. The contents of this file is quite minimal because **the majority of standard ignores should be set within a global .gitignore file.**
 
-If there isn't a global .gitignore file setup, here are some example additional entries for this file:
-
-    # OS Files
-    .DS_Store
-    .DS_Store?
-    Thumbs.db
-
 ### package.json
 
 Defines the dependecies required by Gulp for the tasks outlined above.
