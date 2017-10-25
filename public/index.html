@@ -7,11 +7,23 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="shortcut icon" href="/icon.png">
-        <link rel="apple-touch-icon" href="/icon.png">
-        <link rel="manifest" href="/manifest.json">
+        <link rel="shortcut icon" href="icon.png">
+        <link rel="apple-touch-icon" href="icon.png">
+        <link rel="manifest" href="manifest.json">
 
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <style>
+            /* Styles to show grid outlines for Dev */
+            [class*="col-"] {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                background-color: #eee;
+                background-color: rgba(86,61,124,.15);
+                border: 1px solid #ddd;
+                border: 1px solid rgba(86,61,124,.2);
+            }
+        </style>
     </head>
     <body>
 
@@ -75,8 +87,8 @@
         </div>
 
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="/js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-        <script src="/js/main.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>
