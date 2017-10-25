@@ -19,6 +19,7 @@
  * Normalize.css........A level playing field using @necolas’ Normalize.css.
  * Reset................A tiny reset to complement Normalize.css.
  * Shared...............Sensibly and tersely share some global commonalities (particularly useful when managing vertical rhythm).
+ * Grid.................Bootstrap's responsive grid framework including flex-box layouts (MQ's replaced with Sass MQ)
  *
  * ELEMENTS
  * Page.................Set up our document’s default `font-size` and `line-height`.
@@ -29,6 +30,7 @@
  * OBJECTS
  *
  * COMPONENTS
+ * Monitor-width........A hook for JavaScript to quickly detect which breakpoint is currently being applied.
  *
  * UTILITIES
  * Clearfix.............Bind our clearfix onto a utility class.
@@ -49,6 +51,7 @@
 @import "generic/generic.normalize";
 @import "generic/generic.reset";
 @import "generic/generic.shared";
+@import "generic/generic.grid";
 
 // ELEMENTS
 @import "elements/elements.page";
@@ -59,6 +62,7 @@
 // OBJECTS
 
 // COMPONENTS
+@import "components/components.monitor-width";
 
 // UTILITIES
 @import "utilities/utilities.clearfix";
