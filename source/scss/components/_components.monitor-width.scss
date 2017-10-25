@@ -1,0 +1,25 @@
+#monitor-width {
+	display: block;
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	top: -9999em;
+	left: -9999em;
+    width: 320px;
+
+	@include mq($from: phablet) {
+		width: 576px;
+	}
+
+	@include mq($from: tablet) {
+		width: 768px;
+	}
+
+	@include mq($from: desktop) {
+		width: 992px;
+	}
+
+	@include mq($from: wide) {
+		width: 1200px;
+	}
+}
