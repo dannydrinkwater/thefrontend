@@ -14,6 +14,11 @@ gulp.task('css', function(){
 gulp.task('js', function() {
   return gulp.src(['source/js/plugins/*.js', 'source/js/main.js'])
     .pipe(concat('main.js'))
+    .pipe(
+        uglify().on('error', (error) => {
+            console.log(error.message + ' on ' + error.lineNumber);
+        })
+    )
     .pipe(gulp.dest('public/js'));
 });
 
