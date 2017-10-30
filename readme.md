@@ -44,6 +44,7 @@ Defines the dependecies required by Gulp for the tasks outlined above.
 - Parallax: https://github.com/wagerfield/parallax or https://github.com/Prinzhorn/skrollr
 - Page transitions: https://github.com/codrops/PageTransitions
 - Transitions & animations: https://github.com/h5bp/Effeckt.css
+- Element sorting/ordering (inc. Masonry): https://isotope.metafizzy.co/
 
 - Picturefill (responsive image polyfill): https://github.com/scottjehl/picturefill
 
