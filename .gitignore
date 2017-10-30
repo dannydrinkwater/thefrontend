@@ -1,6 +1,7 @@
 /node_modules
 /public/css
 /public/js
+/public/img
 
 .DS_Store
 .DS_Store?
